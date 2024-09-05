@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Marcellus+SC&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js" defer></script>
+    <title>Document</title>+
+</head>
+<body>
+    <div id="criar-personagem">
+        <hr>
+        <h1>CRIAÇÃO DE PERSONAGEM</h1>
+        <form action="" id="formulario">
+
+            <div class="inputs">
+                <label for="nome">Nome do Personagem:</label>
+                <input type="text" id="id-nome">
+            </div>
+
+            <div  class="inputs">
+                <label for="classe">Classe:</label>
+                <select name="" id="id-classe">
+                    <option value="Cavaleiro">Cavaleiro</option>
+                    <option value="Mago">Mago</option>
+                    <option value="Arqueiro">Arqueiro</option>
+                    <option value="Anão">Anão</option>
+                </select>
+            </div>
+
+            <div class="inputs">
+                <label for="cidade">Cidade de Origem:</label>
+                <select name="" id="id-cidade">
+                    <option value="Liurnia">Liurnia</option>
+                    <option value="Platô Altus">Platô Altus</option>
+                    <option value="Caelid">Caelid</option>
+                    <option value="Limgrave">Limgrave</option>
+                </select>
+            </div>
+
+            <div class="inputs">
+                <label for="servidor">Servidor:</label>
+                <select name="" id="id-servidor">
+                    <option value="América">América</option>
+                    <option value="Ásia">Ásia</option>
+                    <option value="Europa">Europa</option>
+                    <option value="África">África</option>
+                    <option value="Oceania">Oceania</option>
+                </select>
+            </div>
+
+            <div class="inputs">
+                <label for="email">E-mail:</label>
+                <input type="email" id="id-email">
+            </div>
+
+            <div class="inputs">
+                <label for="senha">Senha:</label>
+                <input type="password" id="id-senha">
+            </div>
+
+            <button type="submit" class="botao">Criar Personagem</button>
+        </form>
+        <div id="exibir-info">
+            <h2>INFORMAÇÕES DO JOGADOR</h2>
+            <p>Nome: <span id="id-info-nome"></span></p>
+            <p>Classe: <span id="id-info-classe"></span></p>
+            <p>Servidor: <span id="id-info-servidor"></span></p>
+        </div>
+        <hr>
+    </div>
+</body>
+</html>
