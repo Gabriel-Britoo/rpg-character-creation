@@ -54,7 +54,7 @@ h1{
 }
 
 select{
-    color: rgba(255, 255, 255, 0.751);
+    color: rgb(255, 255, 255);
     background-color: rgba(86, 72, 47, 0.467);
     border-radius: 3px;
     border: 2px solid rgba(126, 125, 85, 0);
@@ -67,7 +67,7 @@ select{
 }
 
 input{
-    color: rgba(255, 255, 255, 0.621);
+    color: rgb(255, 255, 255);
     background-color: rgba(86, 72, 47, 0.467);
     border-radius: 3px;
     border: 2px solid rgba(126, 125, 85, 0);
@@ -110,6 +110,8 @@ hr{
 
 #exibir-info{
     margin-bottom: 30px;
+    float: left;
+    width: 400px;
 }
 
 button{
@@ -122,4 +124,19 @@ button{
     border-radius: 2px;
     box-shadow: 0 0 8px 1px #f8f09b;
     cursor: pointer;
+}
+
+@media (max-width: 480px){
+    #criar-personagem{
+        width: 400px;
+    }
+    h1, h2{
+        font-size: 20px;
+    }
+    .inputs{
+        width: 300px;
+    }
+    label{
+        font-size: 15px;
+    }
 }
